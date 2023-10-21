@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-initial">
+    <div class="rectangle-initial">
+      <div class="circle-star">
+        <img src="images/icon-star.svg" alt="star">
+      </div>
+
+      <div class="texts">
+        <h1 class="title">How did we do?</h1>
+
+        <p class="question">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
+      
+      <div class="rate-buttons">
+        <button class="button1" id="button-1">1</button>
+        <button class="button2" id="button-2">2</button>
+        <button class="button3" id="button-3">3</button>
+        <button class="button4" id="button-4">4</button>
+        <button class="button4" id="button-5">5</button>
+      </div>
+
+      <div class="button-submit">
+        <button class="btn" id="submit-button">Submit</button>
+      </div>
+    </div>
+
+    <div class="container-selected">
+      <div class="rectangle-selected">
+        <div class="illustration">
+          <img src="images/illustration-thank-you.svg" alt="illustration-thank-you">
+        </div>
+
+        <div class="rate-selected">
+          <p class="rate-msg"></p>
+        </div>
+        
+        <h1 class="title-selected">Thank you!</h1>
+        
+        <p class="reponse">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>         
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
